@@ -1,8 +1,8 @@
-# Test case - Login
+# Test scenarios - Login
 
 ### Email + Password login
 
-| TC ID    | Scenario                            | Steps                                        | Expected Output                        | Type       |
+| TS ID    | Scenario                            | Steps                                        | Expected Output                        | Type       |
 | -------- | ----------------------------------- | -------------------------------------------- | -------------------------------------- | ---------- |
 | 1 | Login with valid Email + Password   | Enter valid email and password → Click Login | User navigates to Dashboard            | Positive   |
 | 2 | Login with incorrect password       | Enter valid email + wrong password           | Error message displayed                | Negative   |
