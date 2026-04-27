@@ -1,0 +1,39 @@
+# Test cases - Settings
+
+### Settings navigation
+
+| TC ID  | Scenario                          | Steps                                  | Expected Output                                                                                                                                                                   | Type        |
+| ------ | --------------------------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 1 | Open Settings screen              | Click **Preferences** tab from sidebar | User navigates to Settings screen                                                                                                                                                 | Functional  |
+| 2 | Verify Settings tabs visibility   | Open Settings screen                   | Following tabs displayed:<br>Preferences<br>Personal Profile<br>Company Profile<br>Emission Configuration Fuels<br>Emission Configuration Gases<br>Scope 2 Emission Configuration | UI          |
+| 3 | Default landing tab               | Open Settings                          | Preferences tab loads by default                                                                                                                                                  | Functional  |
+| 4 | Navigate to Personal Profile      | Click Personal Profile tab             | Personal Profile screen opens                                                                                                                                                     | Navigation  |
+| 5 | Navigate to Company Profile       | Click Company Profile tab              | Company Profile screen opens                                                                                                                                                      | Navigation  |
+| 6 | Navigate to Emission Fuels        | Click Emission Configuration Fuels     | Fuels configuration screen opens                                                                                                                                                  | Navigation  |
+| 7 | Navigate to Emission Gases        | Click Emission Configuration Gases     | Gases configuration screen opens                                                                                                                                                  | Navigation  |
+| 8 | Navigate to Scope 2 Configuration | Click Scope 2 emission configuration   | Scope 2 screen opens                                                                                                                                                              | Navigation  |
+| 9 | Switch tabs without saving        | Modify data → switch tab               | Unsaved changes are not saved                                                                                                                                    | Exploratory |
+
+### Settings - Preferences
+
+| TC ID  | Scenario                     | Steps                   | Expected Output                                                                                                                                                                                                                                                                                                         | Type       |
+| ------ | ---------------------------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| 10 | Open Preferences tab         | Click Preferences       | Preferences tab loads                                                                                                                                                                                                                                                                                                   | Functional |
+| 11 | Verify Preferences fields    | Open Preferences tab    | Fields displayed:<br>Date Format<br>Time Format<br>Currency<br>Data Capture Frequency<br>Reporting Cycle<br>Number Format<br>Email Reminders<br>Reporting Updates<br>Auto Validation<br>Comment Notifications<br>Review Reminders<br>Product Code<br>Working Days<br>Air Emission Measurement<br>Data Anomaly Bandwidth | UI         |
+| 22 | Modify preferences           | Update values           | Updated values saved successfully                                                                                                                                                                                                                                                                                       | Functional |
+| 13 | Verify persistence           | Refresh page            | Saved preferences remain                                                                                                                                                                                                                                                                                                | Regression |
+
+### Settings - Company profile
+
+| TC ID  | Scenario                      | Steps                     | Expected Output                                                                                                                         | Type       |
+| ------ | ----------------------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| 14 | Open Company Profile          | Click Company Profile tab | Company Profile screen opens                                                                                                            | Functional |
+| 15 | Verify Company Profile fields | Load screen               | Fields displayed:<br>Profile Photo<br>Edit Photo Icon<br>Company Name*<br>Country*<br>Location*<br>Industry*<br>Website*<br>TIN Number* | UI         |
+| 16 | Verify prefilled data         | Open page                 | Previously saved data displayed                                                                                                         | Functional |
+| 17 | Verify editable fields        | Inspect fields            | Editable:<br>Company Name<br>Industry<br>Website                                                                                        | UI         |
+| 18 | Verify non-editable fields    | Inspect fields            | Non-editable:<br>Country<br>Location<br>TIN Number                                                                                      | UI         |
+| 19 | Save button disabled   | Leave mandatory fields empty | Save button disabled                 | Validation  |
+| 20 | Enable save button     | Fill valid inputs            | Save button enabled                  | Functional  |
+| 21 | Update company details | Modify data → Save           | Updated details reflected everywhere | Integration |
+| 22 | Verify updated company details reflected across platform | 1. Navigate to **Settings → Company Profile**.<br>2. Update Company Name / Website / Industry.<br>3. Click **Save**.<br>4. Navigate to Dashboard.<br>5. Open Reporting module.<br>6. Open existing report.<br>7. Check headers, report summary, dashboard widgets, and profile references. | Updated company details must be reflected consistently across all applicable modules and screens without mismatch or delay. | Integration |
+
