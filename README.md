@@ -27,10 +27,9 @@ The testing covered:
 
 | Section                   | Description                                                   |
 | ------------------------- | ------------------------------------------------------------- |
-| `Exploratory_Test_Cases/` | Module-wise exploratory test cases written in Markdown format |
+| `Exploratory test scenarios/` | Module-wise exploratory test scenarios tested are written in Markdown format |
 | `Workflow_Analysis/`      | Role-based workflow understanding and system analysis         |
 | `Exploratory_Approach.md` | Testing strategy and approach followed during exploration     |
-| `Test_Cases_Link.md`      | Google Sheet containing structured manual test cases          |
 
 
 ### 🐞 Issues Tracking (GitHub Issues)
