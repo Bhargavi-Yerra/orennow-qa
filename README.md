@@ -27,9 +27,9 @@ The testing covered:
 
 | Section                   | Description                                                   |
 | ------------------------- | ------------------------------------------------------------- |
-| `[Exploratory test scenarios](https://github.com/Bhargavi-Yerra/orennow-qa/tree/main/Exploratory%20test%20scenarios)` | Module-wise exploratory test scenarios tested are written in Markdown format |
-| `Workflow_Analysis`      | Role-based workflow understanding and system analysis         |
-| `[Exploratory_Approach](https://github.com/Bhargavi-Yerra/orennow-qa/blob/main/Exploratory_Approach.md)` | Testing strategy and approach followed during exploration     |
+| [Exploratory test scenarios](https://github.com/Bhargavi-Yerra/orennow-qa/tree/main/Exploratory%20test%20scenarios) | Module-wise exploratory test scenarios tested are written in Markdown format |
+| [Workflow_Analysis](https://github.com/Bhargavi-Yerra/orennow-qa/blob/main/Workflow_Analysis.md)     | Role-based workflow understanding and system analysis         |
+| [Exploratory_Approach](https://github.com/Bhargavi-Yerra/orennow-qa/blob/main/Exploratory_Approach.md) | Testing strategy and approach followed during exploration     |
 
 
 ### 🐞 Issues Tracking (GitHub Issues)
