@@ -1,8 +1,8 @@
-# Test cases - Settings
+# Test scenarios - Settings
 
 ### Settings navigation
 
-| TC ID  | Scenario                          | Steps                                  | Expected Output                                                                                                                                                                   | Type        |
+| TS ID  | Scenario                          | Steps                                  | Expected Output                                                                                                                                                                   | Type        |
 | ------ | --------------------------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
 | 1 | Open Settings screen              | Click **Preferences** tab from sidebar | User navigates to Settings screen                                                                                                                                                 | Functional  |
 | 2 | Verify Settings tabs visibility   | Open Settings screen                   | Following tabs displayed:<br>Preferences<br>Personal Profile<br>Company Profile<br>Emission Configuration Fuels<br>Emission Configuration Gases<br>Scope 2 Emission Configuration | UI          |
