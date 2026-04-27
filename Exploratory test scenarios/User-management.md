@@ -1,4 +1,4 @@
-# Test cases User Management 
+# Test scenarios User Management 
 
 TC ID | Steps | Expected output | Type | 
 -- | -- | -- | -- |
