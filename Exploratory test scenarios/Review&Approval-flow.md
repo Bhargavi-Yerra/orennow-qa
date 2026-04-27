@@ -1,6 +1,6 @@
-# Test case - Review & approval flow
+# Test scenarios - Review & approval flow
 
-| TC ID | Scenario                              | Steps                          | Expected Output           | Type       |
+| TS ID | Scenario                              | Steps                          | Expected Output           | Type       |
 | ----- | ------------------------------------- | ------------------------------ | ------------------------- | ---------- |
 | 1 | Owner reviews collaborator submission | Open submitted section         | Data visible correctly    | Functional |
 | 2 | Approve section                       | Click Approve                  | Section approved          | Functional |
