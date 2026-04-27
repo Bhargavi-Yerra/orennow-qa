@@ -39,10 +39,10 @@ All observations discovered during testing are documented using **GitHub Issues*
 
 | Label                 | Description                                               |
 | --------------------- | --------------------------------------------------------- |
-| 🐞 **bug**            | Functional defects identified during testing              |
-| ⚠️ **friction-point** | User experience challenges or workflow pain points        |
-| 💡 **improvement**    | Suggested enhancements to improve usability or efficiency |
-| ❓ **question**        | Clarifications or behavioral ambiguities observed         |
+| 🐞 **[bug](https://github.com/Bhargavi-Yerra/orennow-qa/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug)**            | Functional defects identified during testing              |
+| ⚠️ **[friction-point](https://github.com/Bhargavi-Yerra/orennow-qa/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22Friction%20points%22)** | User experience challenges or workflow pain points        |
+| 💡 **[improvement](https://github.com/Bhargavi-Yerra/orennow-qa/issues?q=is%3Aissue%20state%3Aopen%20label%3AImprovements)**    | Suggested enhancements to improve usability or efficiency |
+| ❓ **[question](https://github.com/Bhargavi-Yerra/orennow-qa/issues?q=is%3Aissue%20state%3Aopen%20label%3Aquestion)**        | Clarifications or behavioral ambiguities observed         |
 
 👉 Navigate to **Issues Tab** to review findings:
 **Repository → Issues**
