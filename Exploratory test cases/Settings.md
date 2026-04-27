@@ -37,3 +37,43 @@
 | 21 | Update company details | Modify data → Save           | Updated details reflected everywhere | Integration |
 | 22 | Verify updated company details reflected across platform | 1. Navigate to **Settings → Company Profile**.<br>2. Update Company Name / Website / Industry.<br>3. Click **Save**.<br>4. Navigate to Dashboard.<br>5. Open Reporting module.<br>6. Open existing report.<br>7. Check headers, report summary, dashboard widgets, and profile references. | Updated company details must be reflected consistently across all applicable modules and screens without mismatch or delay. | Integration |
 
+### Settings - Personal profile
+
+| TC ID | Scenario                     | Steps                                 | Expected Output                                                                                          | Type       |
+| ----- | ---------------------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------- | ---------- |
+| 23 | Navigate to Personal Profile | Click **Settings → Personal Profile** | Personal Profile screen opens successfully                                                               | Functional |
+| 24 | Verify fields displayed      | Open Personal Profile                 | Fields displayed:<br>Full Name<br>Role<br>Phone Number<br>Email<br>Update Password button<br>Save button | UI         |
+| 25 | Verify pre-filled data       | Load Personal Profile page            | Existing user details displayed correctly                                                                | Functional |
+| 26 | Verify role visibility       | Check Role field                      | Correct role displayed and should be read-only                                                     | Role-Based |
+| 27 | Verify editable fields       | Inspect fields                        | Full Name & Phone editable                                                                               | UI         |
+| 28 | Verify non-editable email    | Attempt editing email                 | Email field should be read-only                                                         | Validation |
+
+### Settings - Emission configuration fuels
+
+| TC ID | Scenario                                 | Steps                                                 | Expected Output                                                                           | Type       |
+| ----- | ---------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------- | ---------- |
+| 29 | Navigate to Emission Configuration Fuels | Go to Settings → Click *Emission Configuration Fuels* | User lands on Fuels configuration screen                                                  | Functional |
+| 30 | Verify page elements                     | Open screen                                           | Fuel table, Database dropdown, Emission Factor, Unit column, Save Settings button visible | UI         |
+| 31 | Verify financial year display            | Check top right section                               | Selected Financial Year displayed correctly                                               | UI         |
+| 32 | Change financial year                    | Select different year                                 | Fuel configuration updates accordingly                                                    | Functional |
+| 33 | Verify fuel list loaded  | Open screen        | Fuel types displayed (Diesel, Petrol, CNG, Coal, etc.) | Functional |
+| 34 | Scroll fuel list         | Scroll vertically  | Smooth scrolling without UI break                      | UI         |
+| 35 | Pagination check         | Click page numbers | Data loads correctly per page                          | Functional |
+| 36 | Next/Previous pagination | Click Next/Prev    | Correct page navigation                                | Functional |
+| 37 | Open database dropdown             | Click dropdown for any fuel   | Database options displayed                    | Functional  |
+| 38 | Verify dropdown options            | Expand dropdown               | Legacy DB, EF DEFRA (Year variants) displayed | UI          |
+| 39 | Select database value              | Choose EF DEFRA (2024)        | Emission factor auto-populates                | Functional  |
+| 40 | Change database repeatedly         | Switch options multiple times | Values update correctly without lag           | Exploratory |
+| 41 | Leave database unselected          | Keep default value            | System handles empty selection safely         | Edge        |
+| 42 | Select database for multiple fuels | Update several rows           | Each fuel retains its selected database       | Functional  |
+| 43 | Verify emission factor auto-fill | Select database             | Emission factor auto-populates                      | Functional |
+| 44 | Verify emission factor format    | Observe value               | Decimal precision displayed correctly               | UI         |
+| 45 | Verify read-only behavior        | Try editing emission factor | Field should be non-editable (if system controlled) | Validation |
+| 46 | Verify unit mapping              | Select database             | Correct unit displayed (kg/Litre etc.)              | Functional |
+| 47 | Save updated configuration | Modify database → Click Save Settings | Settings saved successfully         | Positive    |
+| 48 | Save without changes       | Click Save Settings                   | No error; system handles gracefully | Edge        |
+| 49 | Refresh after save         | Save → Refresh page                   | Saved values persist                | Regression  |
+| 50 | Navigate away after save   | Save → Open another module            | Changes retained                    | Integration |
+
+
+
