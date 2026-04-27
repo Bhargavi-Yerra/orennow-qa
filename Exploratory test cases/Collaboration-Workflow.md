@@ -1,6 +1,6 @@
 # Test Scenarios - Collaboration workflow
 
-| TC ID | Scenario                            | Steps                                 | Expected Output                      | Type       |
+| TS ID | Scenario                            | Steps                                 | Expected Output                      | Type       |
 | ----- | ----------------------------------- | ------------------------------------- | ------------------------------------ | ---------- |
 | 1 | Assign collaborator to section      | Select section → Assign collaborator  | Collaborator assigned successfully   | Functional |
 | 2 | Collaborator access validation      | Login as collaborator                 | Only assigned sections visible       | Security   |
