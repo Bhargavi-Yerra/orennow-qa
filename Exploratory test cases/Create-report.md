@@ -1,6 +1,6 @@
-# Test case - Create report
+# Test scenarios - Create report
 
-| TC ID | Scenario                           | Steps                               | Expected Output                   | Type       |
+| TS ID | Scenario                           | Steps                               | Expected Output                   | Type       |
 | ----- | ---------------------------------- | ----------------------------------- | --------------------------------- | ---------- |
 | 1 | Create new report                  | Navigate → Reports → Add Report  | New report created successfully   | Functional |
 | 2 | Mandatory fields validation        | Leave mandatory fields empty → Save | Validation message displayed      | Negative   |
