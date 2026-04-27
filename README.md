@@ -27,7 +27,7 @@ The testing covered:
 
 | Section                   | Description                                                   |
 | ------------------------- | ------------------------------------------------------------- |
-| `Exploratory test scenarios/` | Module-wise exploratory test scenarios tested are written in Markdown format |
+| `[Exploratory test scenarios](https://github.com/Bhargavi-Yerra/orennow-qa/tree/main/Exploratory%20test%20scenarios)` | Module-wise exploratory test scenarios tested are written in Markdown format |
 | `Workflow_Analysis/`      | Role-based workflow understanding and system analysis         |
 | `Exploratory_Approach.md` | Testing strategy and approach followed during exploration     |
 
