@@ -1,4 +1,4 @@
-# Test case - Collaboration workflow
+# Test Scenarios - Collaboration workflow
 
 | TC ID | Scenario                            | Steps                                 | Expected Output                      | Type       |
 | ----- | ----------------------------------- | ------------------------------------- | ------------------------------------ | ---------- |
