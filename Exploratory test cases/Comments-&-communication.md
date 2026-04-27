@@ -1,6 +1,6 @@
-# Test case - Comments and communication
+# Test scenarios - Comments and communication
 
-| TC ID | Scenario                             | Steps                              | Expected Output                 | Type       |
+| TS ID | Scenario                             | Steps                              | Expected Output                 | Type       |
 | ----- | ------------------------------------ | ---------------------------------- | ------------------------------- | ---------- |
 | 1 | Add comment in report                | Open comment section → Add message | Comment posted                  | Functional |
 | 2 | Two-way communication                | Owner & collaborator chat          | Messages visible both sides     | Functional |
